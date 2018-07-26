@@ -13,7 +13,7 @@ $wallet-view-bg: $alabaster;
 .main-container {
   // position: absolute;
   z-index: $main-container-z-index;
-  font-family: Roboto;
+  font-family: Lekton;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
@@ -87,7 +87,7 @@ $wallet-view-bg: $alabaster;
   &__keyring-label {
     height: 50px;
     color: $dusty-gray;
-    font-family: Roboto;
+    font-family: Lekton;
     font-size: 10px;
     text-align: right;
     padding: 17px 20px 0;
@@ -314,7 +314,7 @@ $wallet-view-bg: $alabaster;
 
 .unlock-screen-container {
   z-index: $main-container-z-index;
-  font-family: Roboto;
+  font-family: Lekton;
   display: flex;
   justify-content: center;
   align-items: center;

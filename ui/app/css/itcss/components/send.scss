@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: column nowrap;
   z-index: 25;
-  font-family: Roboto;
+  font-family: Lekton;
 
   @media screen and (max-width: $break-small) {
     width: 100%;
@@ -77,7 +77,7 @@
     margin: 4px 0 20px;
     font-size: 16px;
     line-height: 22.4px;
-    font-family: Roboto;
+    font-family: Lekton;
   }
 
   .send-screen-gas-input {
@@ -317,7 +317,7 @@
   display: flex;
   flex-flow: column nowrap;
   z-index: 25;
-  font-family: Roboto;
+  font-family: Lekton;
 
   &__content {
     width: 498px;
@@ -410,7 +410,7 @@
     flex-flow: column nowrap;
     z-index: 25;
     align-items: center;
-    font-family: Roboto;
+    font-family: Lekton;
     position: relative;
 
     @media screen and (max-width: $break-small) {
@@ -575,7 +575,7 @@
 
   &__form-label {
     color: $scorpion;
-    font-family: Roboto;
+    font-family: Lekton;
     font-size: 16px;
     line-height: 22px;
     width: 88px;
@@ -588,7 +588,7 @@
     border: 1px solid $alto;
     border-radius: 4px;
     background-color: $white;
-    font-family: Roboto;
+    font-family: Lekton;
     line-height: 16px;
     font-size: 12px;
     color: $tundora;
@@ -637,7 +637,7 @@
       background-color: $white;
       color: $tundora;
       padding: 10px;
-      font-family: Roboto;
+      font-family: Lekton;
       font-size: 16px;
       line-height: 21px;
     }
@@ -645,7 +645,7 @@
 
   &__amount-max {
     color: $curious-blue;
-    font-family: Roboto;
+    font-family: Lekton;
     font-size: 12px;
     left: 8px;
     border: none;
@@ -712,7 +712,7 @@
     border-radius: 4px;
     background-color: #FFFFFF;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14);
-    font-family: Roboto;
+    font-family: Lekton;
     display: flex;
     flex-flow: column;
 
@@ -828,7 +828,7 @@
     &__title {
       height: 26px;
       color: $tundora;
-      font-family: Roboto;
+      font-family: Lekton;
       font-size: 20px;
       line-height: 26px;
       margin-top: 17px;
@@ -838,7 +838,7 @@
       height: 38px;
       width: 314px;
       color: $tundora;
-      font-family: Roboto;
+      font-family: Lekton;
       font-size: 14px;
       line-height: 19px;
       margin-top: 17px;

@@ -32,20 +32,28 @@
 
   &__metafox {
     cursor: pointer;
+    margin-right: 10px;
   }
 
-  &__beta-label {
-    font-family: Roboto;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: .8rem;
-    color: $buttercup;
-    margin-left: 5px;
-    line-height: initial;
-
-    @media screen and (max-width: 575px) {
+  &__wordmark{
+    margin-right: 10px;
+      @media screen and (max-width: 575px) {
       display: none;
     }
+  }
+
+
+  &__beta-label {
+    background-color: $buttercup;
+    font-family: Lekton;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .6rem;
+    color: white;
+    line-height: initial;
+    height: 10px;
+    padding: 4px 4px 12px;
+    border-radius: 2px;
   }
 
   &__contents {
@@ -86,7 +94,7 @@
 }
 
 .app-header h1 {
-  font-family: Roboto;
+  font-family: Lekton;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.1rem;

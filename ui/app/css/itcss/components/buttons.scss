@@ -5,17 +5,17 @@
 .btn-default,
 .btn-primary,
 .btn-secondary {
-  height: 44px;
   background: $white;
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  font-family: Lekton;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   transition: border-color .3s ease;
-  padding: 0 16px;
+  padding: 12px 16px 10px;
   min-width: 140px;
   width: 100%;
   text-transform: uppercase;
@@ -86,6 +86,7 @@
   color: $curious-blue;
   border: 2px solid $spindle;
   border-radius: 4px;
+  font-family: Lekton;
   font-size: .85rem;
   font-weight: 400;
   transition: border-color .3s ease;
@@ -173,7 +174,7 @@ button.primary {
   box-shadow: 0 3px 6px rgba(247, 134, 28, .36);
   color: $white;
   font-size: 1.1em;
-  font-family: Roboto;
+  font-family: Lekton;
   text-transform: uppercase;
 }
 
@@ -183,7 +184,7 @@ button.primary {
   box-shadow: 0 3px 6px rgba(247, 134, 28, .36);
   color: #585d67; // TODO: make reusable light button color
   font-size: 1.1em;
-  font-family: Roboto;
+  font-family: Lekton;
   text-transform: uppercase;
   text-align: center;
   line-height: 20px;
